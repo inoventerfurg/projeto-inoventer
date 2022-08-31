@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --font: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: opx;
+}
+
+html, body {
+    min-height: 100%;
+    background-color:lightgray;
+    font-family: var(--font);
+}
+/* Início do Header com Menu */
+header {
+    background-color:rgb(148, 148, 148);
+    color: white;
+    text-align: center;
+}
+header a, footer a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 4vw;
+    text-align: center;
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color:white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+menu {
+    display: block; 
+}
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+/* Final do Header com Menu */
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font);
+    font-size: 2.0vw;
+}
+
+section > p {
+    padding: 0.5em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
