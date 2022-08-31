@@ -12,11 +12,13 @@
 }
 
 html, body {
-    min-height: 100%;
+    min-height: 100vh;
     background-color:lightgray;
     font-family: var(--font);
 }
+
 /* Início do Header com Menu */
+
 header {
     background-color:rgb(148, 148, 148);
     color: white;
@@ -29,7 +31,7 @@ header a, footer a {
 }
 
 header > h1 {
-    padding: 50px;
+    padding: 25px;
     font-variant: small-caps;
     font-size: 5vw;
     text-align: center;
@@ -50,7 +52,7 @@ i#burguer:hover {
 }
 
 menu {
-    display: block; 
+    display: none; 
 }
 menu > ul {
     list-style-type: none;
@@ -106,9 +108,8 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 
-div {
+div.normal {
     padding-top: 2vh;
-    padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 2.5vw;
