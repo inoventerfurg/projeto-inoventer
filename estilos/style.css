@@ -75,9 +75,9 @@ menu > ul > li > a:hover {
 /* Final do Header com Menu */
 
 section {    
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
+    padding-top: 3vh;
+    padding-bottom: 20vh;
+    line-height: 1em;
     padding-left: 30px;
     font-family: var(--font);
     font-size: 2.0vw;
@@ -90,7 +90,7 @@ section > p {
 
 section.normal {
     background-color: white;
-    color: black;
+    color: white;
 }
 
 section.imagem {
@@ -108,11 +108,22 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 
+section#cadastro {
+    background-image: url(../imagem/BG_2.jpg);
+    background-position: left top;
+}
+
 div.normal {
     padding-top: 2vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 2.0vw;
+}
+
+section#sensores {
+    background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
