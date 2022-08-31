@@ -80,7 +80,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font);
-    font-size: 3.5vw;
+    font-size: 4.0vw;
     border-radius: 5px;
 }
 
@@ -112,7 +112,7 @@ div.normal {
     padding-top: 2vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 2.5vw;
+    font-size: 4.0vw;
 }
 
 footer {
