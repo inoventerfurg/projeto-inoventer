@@ -30,10 +30,9 @@ header a, footer a {
     font-weight: bolder;
 }
 
-header > h1 {
-    padding: 25px;
-    font-variant: small-caps;
-    font-size: 5vw;
+header > a > img {
+    height: 80px;
+    padding: 25px;    
     text-align: center;
 }
 
