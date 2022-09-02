@@ -152,7 +152,7 @@ button.cadastro{
 }
 
 section#servicos {
-    height: 10vh;
+    height: 35vh;
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
     background-size: cover;
@@ -162,7 +162,7 @@ section.imagem#servicos > a > img {
     padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 18vh;
+    height: 20vh;
 } 
 
 section.imagem#servicos > a > img:hover {    
