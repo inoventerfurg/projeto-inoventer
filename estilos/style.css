@@ -20,7 +20,7 @@ html, body {
 /* Início do Header com Menu */
 
 header {
-    background-color:rgb(148, 148, 148);
+    background-color:#B9B8B8;
     color: white;
     text-align: center;
 }
@@ -31,22 +31,23 @@ header a, footer a {
 }
 
 header > a > img {
-    height: 80px;
-    padding: 25px;    
+    height: 60px;
+    padding: 10px;    
     text-align: center;
 }
 
 i#burguer {
     background-color: rgb(48, 48, 48);
-    color:white;
+    color:#E2A518;
     display: block;
     text-align: center;
     padding: 10px;
 }
 
 i#burguer:hover {
-    background-color: white;
-    color: black;
+    background-color: #707070;
+    color: #E2A518;
+    transition: transform 0.5s, border 0.3s;
     cursor: pointer;
 }
 
@@ -55,6 +56,7 @@ menu {
 }
 menu > ul {
     list-style-type: none;
+    padding: 5px;
 }
 
 menu > ul > li > a {
@@ -63,13 +65,17 @@ menu > ul > li > a {
     text-decoration: none;
     font-size: 1.5vw;
     text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
+    background-color: #E2A518;
+    color: #35363A;
     border-top: 2px solid gray;
+    border-radius: 15px;
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
 }
 
 /* Final do Header com Menu */
@@ -107,7 +113,28 @@ section.imagem > p {
 
 section#cadastro {
     background-image: url(../imagem/BG_2.jpg);
-    background-position: left top;
+    background-position: left center;
+}
+
+button {
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 1.0em;
+	margin: auto;
+	height: 40px;
+	width: 80px;    
+	background-color: #E2A518;
+	border: 1px solid #707070;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+	box-sizing: border-box;	
+	text-align: center;
+}
+
+.cadastro {
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+        
 }
 
 div.normal {
