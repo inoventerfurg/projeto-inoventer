@@ -96,6 +96,8 @@ section {
 
 section > p {
     padding: 0.8em;
+    color: #E2A518;
+    font-weight: bolder; 
 }
 
 section.normal {
@@ -142,8 +144,8 @@ button:hover {
 } 
 
 .cadastro {
-    height: 50px;
-    width: 140px;
+    height: 5vh;
+    width: 15vw;
     border-radius: 40px;        
 }
 
@@ -152,6 +154,15 @@ div.normal {
     line-height: 2em;
     padding-left: 30px;
     font-size: 2.2vw;
+    background-color: #4B4B4B;
+}
+
+div > h2 {
+    color: white;
+}
+
+div > p {
+    color: #E2A518;
 }
 
 section#sensores {
@@ -161,8 +172,8 @@ section#sensores {
 }
 
 .amostra {
-    height: 50px;
-    width: 500px;
+    height: 5vh;
+    width: 50vw;
     border-radius: 40px; 
 }
 
