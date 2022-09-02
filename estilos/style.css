@@ -67,7 +67,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    font-size: 2.2vw;
+    font-size: 3.5vw;
     text-align: center;
     background-color: #E2A518;
     color: #35363A;
@@ -95,9 +95,14 @@ section {
 }
 
 section > p {
+    font-size: 1.8em;
     padding: 0.8em;
     color: #E2A518;
     font-weight: bolder; 
+}
+
+section > h2 {
+    font-size: 1.8em;
 }
 
 section.normal {
@@ -152,7 +157,7 @@ button.cadastro{
 }
 
 section#servicos {
-    height: 35vh;
+    height: 43vh;
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
     background-size: cover;
@@ -162,7 +167,7 @@ section.imagem#servicos > a > img {
     padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 20vh;
+    height: 25vh;
 } 
 
 section.imagem#servicos > a > img:hover {    
@@ -191,7 +196,7 @@ div > p {
 }
 
 section#sensores {
-    height: 10vh; 
+    height: 40vh; 
     background-color: #b9b8b82d;
 }
 
@@ -199,7 +204,7 @@ section.normal#sensores > a > img {
     padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 18vh;
+    height: 25vh;
 } 
 
 section.normal#sensores > a > img:hover {    
