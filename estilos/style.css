@@ -80,7 +80,7 @@ section {
     line-height: 1em;
     padding-left: 30px;
     font-family: var(--font);
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     border-radius: 2px;
 }
 
@@ -114,7 +114,7 @@ div.normal {
     padding-top: 2vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 2.0vw;
+    font-size: 2.2vw;
 }
 
 section#sensores {
