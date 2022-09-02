@@ -143,6 +143,9 @@ button:hover {
     transition: transform 0.5s, border 0.3s;
 } 
 
+button.cadastro{
+    align-items: center;
+}
 .cadastro {
     height: 5vh;
     width: 15vw;
