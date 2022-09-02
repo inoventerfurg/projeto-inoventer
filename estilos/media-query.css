@@ -25,8 +25,4 @@ Grandes telas: acima de 1200px
     main {
         width: 786px;
     }
-
-    section#servicos > img {
-        display: inline-block;
-    }
 }

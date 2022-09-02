@@ -158,9 +158,10 @@ section#servicos {
     background-size: cover;
 }
 
-section#servicos > img {
-    display: inline-block;
-    height: 14vh;
+section.imagem#servicos > img {
+    margin: auto; 
+    display: inline-block;    
+    height: 12vh;
 } 
 
 div.normal {
