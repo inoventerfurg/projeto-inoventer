@@ -95,14 +95,14 @@ section {
 }
 
 section > p {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding: 0.8em;
     color: #E2A518;
     font-weight: bolder; 
 }
 
 section > h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 section.normal {
@@ -157,7 +157,7 @@ button.cadastro{
 }
 
 section#servicos {
-    height: 43vh;
+    height: 20vh;
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
     background-size: cover;
@@ -167,7 +167,7 @@ section.imagem#servicos > a > img {
     padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 25vh;
+    height: 15vh;
 } 
 
 section.imagem#servicos > a > img:hover {    
@@ -186,11 +186,11 @@ div.normal {
 
 div > h2 {
     color: white;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 div > p {
-    font-size: 1.8em;
+    font-size: 1.5em;
     display: inline-block;
     line-height: 1em;
     padding: 0.8em;
@@ -198,7 +198,7 @@ div > p {
 }
 
 section#sensores {
-    height: 40vh; 
+    height: 20vh; 
     background-color: #b9b8b82d;
 }
 
@@ -206,7 +206,7 @@ section.normal#sensores > a > img {
     padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 25vh;
+    height: 15vh;
 } 
 
 section.normal#sensores > a > img:hover {    
@@ -250,7 +250,7 @@ footer {
 
 h4 {
     color: #E2A518;
-    font-size: 22px;
+    font-size: 0.8em;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -260,7 +260,7 @@ h4 {
 
 ul, li {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 0.5em;
     text-transform: capitalize;
     color: black;
     font-weight: 300;
