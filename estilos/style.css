@@ -158,11 +158,18 @@ section#servicos {
     background-size: cover;
 }
 
-section.imagem#servicos > img {
+section.imagem#servicos > a > img {
+    padding-top: 10px;
     margin: auto; 
     display: inline-block;    
-    height: 12vh;
+    height: 18vh;
 } 
+
+section.imagem#servicos > a > img:hover {    
+    transform: translate(1px, -1px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
 
 div.normal {
     padding-top: 2vh;
@@ -183,6 +190,24 @@ div > p {
     color: #E2A518;
 }
 
+section#sensores {
+    height: 10vh; 
+    background-color: #b9b8b82d;
+}
+
+section.normal#sensores > a > img {
+    padding-top: 10px;
+    margin: auto; 
+    display: inline-block;    
+    height: 18vh;
+} 
+
+section.normal#sensores > a > img:hover {    
+    transform: translate(1px, -1px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+}
+
 .amostra {
     height: 5vh;
     width: 70vw;
@@ -190,11 +215,58 @@ div > p {
 }
 
 footer {
+    margin: 0;
+    padding: 0;
     background-color: darkgray;
     text-align: center;
+    text-decoration: none;
+    box-sizing: border-box; 
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
+
+.container-footer { 
+    max-width: 1400vw; 
+    padding: 0 4%;
+    margin: auto;              
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 10 15px;
+}
+
+h4 {
+    color: #E2A518;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+ul, li {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+ul, li:hover {
+    color: #707070;
+    padding-left: 10px;
+} 
 
 
 
