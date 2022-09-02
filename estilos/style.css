@@ -52,11 +52,15 @@ i#burguer:hover {
 }
 
 menu {
-    display: none; 
+    display: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder; 
+    font-size: 1.0em;
+	margin: auto;
 }
 menu > ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 5px;   
 }
 
 menu > ul > li > a {
@@ -130,11 +134,17 @@ button {
 	text-align: center;
 }
 
+button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+} 
+
 .cadastro {
-    height: 40px;
-    width: 100px;
-    border-radius: 40px;
-        
+    height: 50px;
+    width: 140px;
+    border-radius: 40px;        
 }
 
 div.normal {
@@ -148,6 +158,12 @@ section#sensores {
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
     background-size: cover;
+}
+
+.amostra {
+    height: 50px;
+    width: 500px;
+    border-radius: 40px; 
 }
 
 footer {
