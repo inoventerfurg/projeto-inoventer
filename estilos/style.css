@@ -67,11 +67,11 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 2.2vw;
     text-align: center;
     background-color: #E2A518;
     color: #35363A;
-    border-top: 2px solid gray;
+    border-top: 1px solid #35363A;
     border-radius: 15px;
 }
 
@@ -125,10 +125,8 @@ section#cadastro {
 button {
 	font-family: 'Lato', sans-serif;
 	font-weight: bolder;
-	font-size: 1.0em;
+	font-size: 1.5em;
 	margin: auto;
-	height: 40px;
-	width: 80px;    
 	background-color: #E2A518;
 	border: 1px solid #707070;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -148,8 +146,10 @@ button.cadastro{
 }
 .cadastro {
     height: 5vh;
-    width: 15vw;
-    border-radius: 40px;        
+    width: 20vw;
+    border-radius: 40px;
+    text-align: center; 
+    margin: auto;       
 }
 
 div.normal {
@@ -176,7 +176,7 @@ section#sensores {
 
 .amostra {
     height: 5vh;
-    width: 50vw;
+    width: 70vw;
     border-radius: 40px; 
 }
 
