@@ -113,8 +113,7 @@ section.imagem {
 }
 
 section.imagem > p {
-    display: inline-block;
-       text-shadow: 1px 1px 0px black;
+   text-shadow: 1px 1px 0px black;
 }
 
 section#cadastro {
@@ -152,6 +151,17 @@ button.cadastro{
     margin: auto;       
 }
 
+section#servicos {
+    height: 10vh;
+    background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
+    background-position: center;
+    background-size: cover;
+}
+
+section#servicos > img {
+    height: 20vh;
+} 
+
 div.normal {
     padding-top: 2vh;
     line-height: 2em;
@@ -165,13 +175,10 @@ div > h2 {
 }
 
 div > p {
+    display: inline-block;
+    line-height: 1em;
+    padding: 0.8em;
     color: #E2A518;
-}
-
-section#sensores {
-    background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
-    background-position: center;
-    background-size: cover;
 }
 
 .amostra {
