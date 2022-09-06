@@ -187,8 +187,8 @@ div.acesso {
 }
 
 img.acesso {
-    height: 20vh;
-    
+    height: 18vh;
+    text-align: center;    
 }
 
 section#sensores {
@@ -236,7 +236,7 @@ button.amostra {
 footer {
     margin: 0;
     padding: 0;
-    background-color: darkgray;
+    background-color: #b9b8b82d;
     text-align: center;
     text-decoration: none;
     box-sizing: border-box; 
