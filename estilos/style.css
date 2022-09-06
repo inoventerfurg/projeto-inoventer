@@ -17,6 +17,18 @@ html, body {
     font-family: var(--font);
 }
 
+p {
+    font-size: 1.5em;
+    padding: 0.8em;
+    color: #E2A518;
+    font-weight: bolder;    
+}
+
+h2 {
+    font-size: 1.5em;    
+}
+
+
 /* Início do Header com Menu */
 
 header {
@@ -85,44 +97,17 @@ menu > ul > li > a:hover {
 /* Final do Header com Menu */
 
 section {    
-    padding-top: 3vh;
-    padding-bottom: 20vh;
-    line-height: 1em;
-    padding-left: 30px;
+    line-height: 1em;    
     font-family: var(--font);
     font-size: 2.2vw;
-    border-radius: 2px;
 }
 
-section > p {
-    font-size: 1.5em;
-    padding: 0.8em;
-    color: #E2A518;
-    font-weight: bolder; 
-}
-
-section > h2 {
-    font-size: 1.5em;
-}
-
-section.normal {
-    background-color: white;
-    color: black;
-}
-
-section.imagem {
+section#cadastro {
+    height: 25vh;       
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;    
-}
-
-section.imagem > p {
-   text-shadow: 1px 1px 0px black;
-}
-
-section#cadastro {
-    height: 5vh;
     background-image: url(../imagem/BG_2.jpg);
     background-position: left center;
 }
@@ -155,17 +140,25 @@ button:hover {
 }
 
 section#servicos {
-    height: 26vh;
+    height: 40vh;
+    padding-top: 3vh; 
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover;          
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;    
+}
+
+div.servico {
+    padding-left: 30px;    
 }
 
 section.imagem#servicos > a > img {
-    padding-top: 10px;
-    padding-left: 30px;
-    margin: auto; 
-    display: inline-block;    
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;        
     height: 18vh;
 } 
 
@@ -177,28 +170,22 @@ section.imagem#servicos > a > img:hover {
 
 div.normal {
     padding-top: 2vh;
-    line-height: 2em;
+    line-height: 0.8em;
     padding-left: 30px;
     font-size: 2.2vw;
     background-color: #4B4B4B;
 }
 
-div > h2 {
-    color: white;
-    font-size: 1.5em;
-}
-
-div > p {
-    font-size: 1.5em;
-    display: inline-block;
-    line-height: 1em;
-    padding: 0.8em;
-    color: #E2A518;
-}
-
 section#sensores {
     height: 26vh; 
     background-color: #b9b8b82d;
+    padding-top: 3vh;    
+    padding-bottom: 20vh;
+    color: black;
+}
+
+div.sensores {
+    padding-left: 30px;   
 }
 
 section.normal#sensores > a > img {
