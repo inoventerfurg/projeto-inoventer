@@ -29,5 +29,81 @@ Grandes telas: acima de 1200px
     section#sensores {
         height: 10vh;
     }
+}
 
+@media screen and (min-width: 992px) {
+    p {
+        font-size: 1.0em;
+    }
+
+    h2 {
+        font-size: 1.0em;
+    }
+
+    main {
+        width: 992px;
+    }
+    
+    button {
+        font-size: 1.3em;
+    }
+
+    header > a > img {
+        height: 100px;
+    }
+
+    menu > ul > li > a {
+        font-size: 1.5vw;
+    }
+
+    section {
+        line-height: 0.5em;
+        font-size: 1.8vw;
+    }
+
+    section#cadastro {
+        height: 50vh;        
+    }
+
+    .cadastro {
+        height: 10vh;
+        width: 18vw;
+    }
+
+    section#servicos {
+        padding-top: 7vh;
+
+    }
+    
+    div.img-servicos > a > img {
+        height: 35vh;
+    }
+
+    div.normal {
+        padding-top: 7vh;
+        height: 52vh;
+        line-height: 0.5em;
+        font-size: 1.8vw;
+    }
+
+    img.acesso {
+        height: 40vh;
+    }
+
+    section#sensores {
+        padding-top: 7vh;
+        height: 30vh;
+    }
+
+    div.img-sensores > a > img {
+        height: 35vh;
+    }
+
+    h4 {
+        font-size: 1.6em;
+    }
+
+    ul, li {
+        font-size: 1.2em;
+    }
 }
