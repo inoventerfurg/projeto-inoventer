@@ -130,8 +130,7 @@ section#cadastro {
 button {
 	font-family: 'Lato', sans-serif;
 	font-weight: bolder;
-	font-size: 1.5em;
-	margin: auto;
+	font-size: 1.8em;
 	background-color: #E2A518;
 	border: 1px solid #707070;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
@@ -146,16 +145,13 @@ button:hover {
     transition: transform 0.5s, border 0.3s;
 } 
 
-button.cadastro{
-    margin-top: 60px;
-    margin-left: 225px;
-}
 .cadastro {
-    height: 5vh;
-    width: 20vw;
+    height: 6vh;
+    width: 26vw;
     border-radius: 40px;
     text-align: center; 
-    margin: auto;       
+    margin-top: 60px;
+    margin-left: 225px;       
 }
 
 section#servicos {
@@ -229,10 +225,9 @@ section#amostra {
 }
 
 button.amostra {
-    margin-top: 60px;
-    margin-left: 30px;
-    height: 5vh;
-    width: 70vw;
+    margin-top: 60px;    
+    height: 6vh;
+    width: 85vw;
     border-radius: 40px; 
 }
 
