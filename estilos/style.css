@@ -150,8 +150,8 @@ button:hover {
     width: 26vw;
     border-radius: 40px;
     text-align: center; 
-    margin-top: 60px;
-    margin-left: 225px;       
+    margin-top: 7vh;
+    margin-left: 55vw;       
 }
 
 section#servicos {
@@ -225,7 +225,7 @@ section#amostra {
 }
 
 button.amostra {
-    margin-top: 60px;    
+    margin-top: 8vh;    
     height: 6vh;
     width: 85vw;
     border-radius: 40px; 
