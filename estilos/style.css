@@ -214,7 +214,7 @@ section.normal#sensores > a > img {
 } 
 
 section.normal#sensores > a > img.sentinel {
- padding-left: 100px;
+    padding-left: 105px;
 } 
 
 section.normal#sensores > a > img:hover {    
