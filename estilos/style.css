@@ -157,11 +157,12 @@ section#servicos {
 }
 
 div.servico {
+    text-align: left;
     padding-left: 30px;    
 }
 
 div.img-servicos > a > img {
-    display: inline-block;    
+    display: inline-block;
     height: 20vh;    
 } 
 
@@ -181,27 +182,22 @@ div.normal {
 }
 
 section#sensores {
-    height: 26vh; 
+    height: 28vh; 
     background-color: #b9b8b82d;
     padding-top: 3vh;    
     padding-bottom: 20vh;
     color: black;
+    text-align: center;
 }
 
 div.sensores {
-    padding-left: 30px;   
+    padding-left: 30px;  
+    text-align: left; 
 }
 
-section.normal#sensores > a > img {
-    padding-top: 10px;
-    padding-left: 30px;
-    margin: auto; 
-    display: inline-block;    
-    height: 18vh;
-} 
-
-section.normal#sensores > a > img.sentinel {
-    padding-left: 105px;
+div.img-sensores > a > img {
+    display: inline-block;
+    height: 20vh;    
 } 
 
 section.normal#sensores > a > img:hover {    
@@ -210,9 +206,14 @@ section.normal#sensores > a > img:hover {
     transition: transform 0.5s, border 0.3s;
 }
 
-
 section#amostra {
-    height: 5vh;
+    height: 30vh;
+    background-image: url(../imagem/lagoa_dos_patos.png);
+    background-position: left center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button.amostra {
