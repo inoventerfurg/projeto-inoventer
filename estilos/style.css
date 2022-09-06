@@ -28,6 +28,24 @@ h2 {
     font-size: 1.5em;    
 }
 
+button {
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 1.8em;
+	background-color: #E2A518;
+	border: 1px solid #707070;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+	box-sizing: border-box;	
+	text-align: center;
+}
+
+button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.600);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s, border 0.3s;
+} 
+
 
 /* Início do Header com Menu */
 
@@ -103,6 +121,9 @@ section {
 }
 
 section#cadastro {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     height: 25vh;       
     background-color: rgb(51, 51, 51);
     color: white;
@@ -112,35 +133,18 @@ section#cadastro {
     background-position: left center;
 }
 
-button {
-	font-family: 'Lato', sans-serif;
-	font-weight: bolder;
-	font-size: 1.8em;
-	background-color: #E2A518;
-	border: 1px solid #707070;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-	box-sizing: border-box;	
-	text-align: center;
-}
-
-button:hover {
-    border: 2px solid rgba(255, 255, 255, 0.600);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
-    transition: transform 0.5s, border 0.3s;
-} 
-
-.cadastro {
+.cadastro {       
     height: 6vh;
     width: 26vw;
-    border-radius: 40px;
-    text-align: center; 
-    margin-top: 7vh;
-    margin-left: 55vw;       
+    border-radius: 40px;        
 }
 
-section#servicos {
-    height: 40vh;
+.btn {
+    padding-right: 10vw;
+}
+
+section#servicos {   
+    height: 48vh;
     padding-top: 3vh; 
     background-image: url(../imagem/Foto_Satélite_da_Nasa.png);
     background-position: center;
@@ -148,18 +152,17 @@ section#servicos {
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
-    background-size: cover;    
+    background-size: cover;
+    text-align: center;    
 }
 
 div.servico {
     padding-left: 30px;    
 }
 
-section.imagem#servicos > a > img {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;        
-    height: 18vh;
+div.img-servicos > a > img {
+    display: inline-block;    
+    height: 20vh;    
 } 
 
 section.imagem#servicos > a > img:hover {    
@@ -169,6 +172,7 @@ section.imagem#servicos > a > img:hover {
 }
 
 div.normal {
+    height: 15vh;
     padding-top: 2vh;
     line-height: 0.8em;
     padding-left: 30px;
