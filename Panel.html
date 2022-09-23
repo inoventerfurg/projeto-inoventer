@@ -16,5 +16,293 @@
         <a href="index.html"><img src="imagem/INOVENTER_PNG.png" alt="logo_Inventer" class="logo"></a>        
         <i class="material-icons" id="cesta" >shopping_cart</i>         
     </header>
+
+    <div class="pedido">
+        <h2 id="pedido">Monte seu pedido</h2>
+        <p id="pedido">Insira seus critérios para a pesquisa</p>
+    </div>
+
+    <nav class="nav_tabs">
+
+        <ul>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab1" checked>
+                <label for="tab1" class="tab1" id="local">Série Histórica</label>
+                <div class="content">
+                    <p>Localização:</p>
+                    <form action="">                        
+                        <p class="pais">
+                            <label for="ipais" class="pais">País: </label>
+                            <input type="text" name="pais" id="ipais" required maxlength="30" placeholder="Digite o nome do País">
+                        </p>
+                        
+
+                        <p class="estado">
+                            <label for="iestado" class="estado">Estado: </label>
+                            <input type="text" name="estado" id="iestado" required maxlength="30" placeholder="Digite o nome do Estado">
+                        </p>
+
+                        <p class="municipio">
+                            <label for="imunicipio" class="municipio">Município: </label>
+                            <input type="text" name="município" id="imunicipio" required maxlength="30" placeholder="Digite o nome do Município">
+                        </p>
+                    </form>
+
+                    <nav class="nav_tabs_serie">
+                        <ul>
+                            <li>
+                                <input type="radio" name="tabs_serie" class="rd_tabs_serie" id="tab1_serie" checked>
+                                <label for="tab1_serie" class="tab1_serie" id="serie">Definir Área</label>
+                                <div class="content_serie">
+                                   
+                                    <p class="area"><i class="material-icons" id="e" >error</i>Nenhuma coordenada selecionada</p> 
+
+                                    <button class="btn1">Desenhar Área</button>
+                                    <button class="btn2">Adicionar Coordenadas</button>
+                                    <button class="btn3">Limpar Coordenadas</button>
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_serie" class="rd_tabs_serie" id="tab2_serie">
+                                <label for="tab2_serie" class="tab2_serie" id="serie">Círculo</label>
+                                <div class="content_serie">
+                                    
+                                    <form action="" id="circulo">                        
+                                        <div class="position">
+                                            <p class="lat">
+                                                <label for="ilat" class="lat">Latitude Central: </label> </label>
+                                                <input type="text" name="pais" id="ilat" required maxlength="30">
+                                            </p>
+                                            <p class="lon">
+                                                <label for="ilon" class="lon">Longitude Central: </label> </label>
+                                                <input type="text" name="lon" id="ilon" required maxlength="30">
+                                            </p>
+                                        </div>
+
+                                        <div class="raio">
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Raio: </label> </label>
+                                                <input type="text" name="raio" id="iraio" required maxlength="30">
+                                            </p>
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Medida: </label>
+                                                <select id="medidas">
+                                                    <option>Metros</option>
+                                                    <option>Quilômetros</option>
+                                                </select>
+                                                
+                                            </p>                                            
+                                        </div>                                        
+                                    </form>
+
+                                    <button class="btn1">Desenhar Círculo</button>
+                                    <button class="btn2">Adicionar Coordenada</button>
+                                    <button class="btn3">Limpar Coordenada</button>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_serie" class="rd_tabs_serie" id="tab3_serie">
+                                <label for="tab3_serie" class="tab3_serie" id="serie">KML/Shapefile</label>
+                                <div class="content_serie" id="shape">
+                                    
+                                    <input type="file">
+
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab2">
+                <label for="tab2" class="tab2" id="local">Monitoramento</label>
+                <div class="content">
+                    <p>Localização:</p>
+                    <form action="">                        
+                        <p class="pais">
+                            <label for="ipais" class="pais">País: </label>
+                            <input type="text" name="pais" id="ipais" required maxlength="30" placeholder="Digite o nome do País">
+                        </p>
+                        
+
+                        <p class="estado">
+                            <label for="iestado" class="estado">Estado: </label>
+                            <input type="text" name="estado" id="iestado" required maxlength="30" placeholder="Digite o nome do Estado">
+                        </p>
+
+                        <p class="municipio">
+                            <label for="imunicipio" class="municipio">Município: </label>
+                            <input type="text" name="município" id="imunicipio" required maxlength="30" placeholder="Digite o nome do Município">
+                        </p>
+                    </form>
+
+
+                    <nav class="nav_tabs_monitora">
+                        <ul>
+                            <li>
+                                <input type="radio" name="tabs_monitora" class="rd_tabs_monitora" id="tab1_monitora" checked>
+                                <label for="tab1_monitora" class="tab1_monitora" id="monitora">Definir Área</label>
+                                <div class="content_monitora">
+                                   
+                                    <p class="area"><i class="material-icons" id="e" >error</i>Nenhuma coordenada selecionada</p> 
+
+                                    <button class="btn1">Desenhar Área</button>
+                                    <button class="btn2">Adicionar Coordenadas</button>
+                                    <button class="btn3">Limpar Coordenadas</button>                            
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_monitora" class="rd_tabs_monitora" id="tab2_monitora">
+                                <label for="tab2_monitora" class="tab2_monitora" id="monitora">Círculo</label>
+                                <div class="content_monitora">
+                                    
+                                    <form action="" id="circulo">                        
+                                        <div class="position">
+                                            <p class="lat">
+                                                <label for="ilat" class="lat">Latitude Central: </label> </label>
+                                                <input type="text" name="pais" id="ilat" required maxlength="30">
+                                            </p>
+                                            <p class="lon">
+                                                <label for="ilon" class="lon">Longitude Central: </label> </label>
+                                                <input type="text" name="lon" id="ilon" required maxlength="30">
+                                            </p>
+                                        </div>
+
+                                        <div class="raio">
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Raio: </label> </label>
+                                                <input type="text" name="raio" id="iraio" required maxlength="30">
+                                            </p>
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Medida: </label>
+                                                <select id="medidas">
+                                                    <option>Metros</option>
+                                                    <option>Quilômetros</option>
+                                                </select>
+                                                
+                                            </p>                                            
+                                        </div>                                        
+                                    </form>
+                                    
+                                    <button class="btn1">Desenhar Círculo</button>
+                                    <button class="btn2">Adicionar Coordenada</button>
+                                    <button class="btn3">Limpar Coordenada</button>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_monitora" class="rd_tabs_monitora" id="tab3_monitora">
+                                <label for="tab3_monitora" class="tab3_monitora" id="monitora">KML/Shapefile</label>
+                                <div class="content_monitora">
+                                    
+                
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                <label for="tab3" class="tab3" id="local">Previsão</label>
+                <div class="content">
+                    <p>Localização:</p>
+                    <form action="">                        
+                        <p class="pais">
+                            <label for="ipais" class="pais">País: </label>
+                            <input type="text" name="pais" id="ipais" required maxlength="30" placeholder="Digite o nome do País">
+                        </p>
+                        
+
+                        <p class="estado">
+                            <label for="iestado" class="estado">Estado: </label>
+                            <input type="text" name="estado" id="iestado" required maxlength="30" placeholder="Digite o nome do Estado">
+                        </p>
+
+                        <p class="municipio">
+                            <label for="imunicipio" class="municipio">Município: </label>
+                            <input type="text" name="município" id="imunicipio" required maxlength="30" placeholder="Digite o nome do Município">
+                        </p>
+                    </form>
+                    
+
+                    <nav class="nav_tabs_previ">
+                        <ul>
+                            <li>
+                                <input type="radio" name="tabs_previ" class="rd_tabs_previ" id="tab1_previ" checked>
+                                <label for="tab1_previ" class="tab1_previ" id="previ">Definir Área</label>
+                                <div class="content_previ">
+                                   
+                                <p class="area"><i class="material-icons" id="e" >error</i>Nenhuma coordenada selecionada</p> 
+
+                                    <button class="btn1">Desenhar Área</button>
+                                    <button class="btn2">Adicionar Coordenadas</button>
+                                    <button class="btn3">Limpar Coordenadas</button>
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_previ" class="rd_tabs_previ" id="tab2_previ">
+                                <label for="tab2_previ" class="tab2_previ" id="previ">Círculo</label>
+                                <div class="content_previ">
+                                    
+                                    <form action="" id="circulo">                        
+                                        <div class="position">
+                                            <p class="lat">
+                                                <label for="ilat" class="lat">Latitude Central: </label> </label>
+                                                <input type="text" name="pais" id="ilat" required maxlength="30">
+                                            </p>
+                                            <p class="lon">
+                                                <label for="ilon" class="lon">Longitude Central: </label> </label>
+                                                <input type="text" name="lon" id="ilon" required maxlength="30">
+                                            </p>
+                                        </div>
+
+                                        <div class="raio">
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Raio: </label> </label>
+                                                <input type="text" name="raio" id="iraio" required maxlength="30">
+                                            </p>
+                                            <p class="raio">
+                                                <label for="iraio" class="raio">Medida: </label>
+                                                <select id="medidas">
+                                                    <option>Metros</option>
+                                                    <option>Quilômetros</option>
+                                                </select>
+                                                
+                                            </p>                                            
+                                        </div>                                        
+                                    </form>
+                                    
+                                    <button class="btn1">Desenhar Círculo</button>
+                                    <button class="btn2">Adicionar Coordenada</button>
+                                    <button class="btn3">Limpar Coordenada</button>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs_previ" class="rd_tabs_previ" id="tab3_previ">
+                                <label for="tab3_previ" class="tab3_previ" id="previ">KML/Shapefile</label>
+                                <div class="content_previ">
+                                    
+                
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    
+
+
+    
 </body>
 </html>
